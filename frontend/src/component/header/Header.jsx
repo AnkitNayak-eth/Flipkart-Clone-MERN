@@ -1,7 +1,7 @@
 
 import  {AppBar,Toolbar,styled,Box,Typography} from '@mui/material';
 import Search from './Search.jsx';
-import HeaderButons from '../HeaderButtons.jsx';
+import HeaderButons from './HeaderButtons.jsx';
 
 const StyledHeader = styled(AppBar)`
     background: #2874f0;

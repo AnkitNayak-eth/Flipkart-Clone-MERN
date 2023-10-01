@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Clone of Flipkart using MERN stack for core e-commerce functionalities.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkitNayak-eth/Flipkart-Clone-MERN.git"
+  },
+  "author": "ankit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnkitNayak-eth/Flipkart-Clone-MERN/issues"
+  },
+  "homepage": "https://github.com/AnkitNayak-eth/Flipkart-Clone-MERN#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "nodemon": "^3.0.1"
+  }
+}
