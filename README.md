@@ -1,7 +1,7 @@
 # Flipkart-Clone-MERN
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/AnkitNayak-eth/Flipkart-Clone-MERN/assets/52006128/d0811ca6-9b6e-42e8-b39a-ef8ce67d3879">
+  <img width="300" height="300" src="https://github.com/AnkitNayak-eth/Flipkart-Clone-MERN/assets/52006128/d0811ca6-9b6e-42e8-b39a-ef8ce67d3879">
 </p>
 
 
