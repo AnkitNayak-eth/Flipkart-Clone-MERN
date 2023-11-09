@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { bannerData } from "../../constans/data";
+import { bannerData } from "../../constants/data.js";
 const responsive = {
     superLargeDesktop: {
         
@@ -42,8 +42,7 @@ const Banner = () =>
             
             {
                 bannerData.map(data =>(
-                    <img src={data.url} alt="Banner" style={{width:"100%",height:"280px"}} />
-
+                    <img key={data.id} src={data.url} alt="Banner" style={{width:"100%",height:"280px"}} />
                 ))
             }
         </Carousel>

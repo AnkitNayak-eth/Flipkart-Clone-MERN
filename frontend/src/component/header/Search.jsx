@@ -1,4 +1,4 @@
-import { Box, Typography,InputBase,styled } from "@mui/material";
+import { Box,InputBase,styled } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 
 const SearchContainer = styled(Box)`
@@ -16,7 +16,7 @@ const StyledInput = styled(InputBase)`
 const Search = () =>{
     return(
         <SearchContainer>
-            <StyledInput placeholder="Search for Products, Brand and More"/>
+            <StyledInput name = 'search' placeholder="Search for Products, Brand and More"/>
             <Box style={{color:"blue", padding:"4px"}} > <SearchIcon /> </Box>
         </SearchContainer>
     );
